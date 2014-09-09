@@ -14,15 +14,12 @@ canvas2.height = 200;
 var PIECE_RADIUS = 5; //all caps for constant
 var BLOCK_SIZE = 10; 
 var SPEED = 2;
-var POSX = 22;
-var POSY = 22;
+var POSX = 8;
+var POSY = 10;
 var img = new Image();
 
-// ctx.strokeStyle = "pink";
-// ctx.strokeRect(5,5,25,25);
-
 function loadImages(callback){ //callback is a function
-	img.src = "images/maze.png";
+	img.src = "images/maze.jpg";
 	img.onload = callback; 
 }
 
